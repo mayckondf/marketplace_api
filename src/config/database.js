@@ -1,3 +1,3 @@
 module.exports = {
-  uri: 'mongodb://localhost:27017/marketplace-db'
+  uri: process.env.DB_URL
 }

@@ -1,4 +1,4 @@
 module.exports = {
-  secret: 'MarketAPI',
+  secret: process.env.APP_SECRET,
   expiresIn: 86400
 }
